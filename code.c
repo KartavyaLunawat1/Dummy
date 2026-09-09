@@ -1,7 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-    printf("This is a Collaborate Folder");
+int main(void) {
+    int number;
+
+    printf("Enter a Number: ");
+    scanf("%d", &number);
     return 0;
-    
 }
